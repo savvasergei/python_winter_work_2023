@@ -1,4 +1,4 @@
-x = list(input())
+x = list(map(int, input().split()))
 res1 = [i for i,j in enumerate(x) if j == min(x)]
 res2 = [i for i,j in enumerate(x) if j == max(x)]
 print(res1)
